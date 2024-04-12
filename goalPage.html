@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="/images/gymGreen.png" type="image/x-icon">
+    <title>FitFlex | Your personal fitness planner.</title>
+</head>
+
+<body>
+    <main class="min-h-screen flex flex-col items-center justify-between max-w-96 mx-auto ">
+        <h2 class="text-2xl self-center font-bold mt-10">What are your goals?</h2>
+        <form action="" class="min-h-[80vh] flex flex-col justify-between my-4 mt-10 w-full">
+            <div class="flex flex-col gap-2">
+
+                <label for="weight" class="rounded-xl p-4 my-2 bg-zinc-100  flex items-center justify-between cursor-pointer">
+                    <span class="font-bold text-lg text-zinc-500">Weight Loss</span>
+                    <input type="checkbox" name="check" id="weight" class="h-6 w-6 rounded-md">
+                </label>
+
+                <label for="muscle" class="rounded-xl p-4 my-2 bg-zinc-100  flex items-center justify-between cursor-pointer">
+                    <span class="font-bold text-lg text-zinc-500">Muscle Gain</span>
+                    <input type="checkbox" name="check" id="muscle" class="h-6 w-6 rounded-md">
+                </label>
+
+                <label for="flexbile" class="rounded-xl p-4 my-2 bg-zinc-100  flex items-center justify-between cursor-pointer">
+                    <span class="font-bold text-lg text-zinc-500">Flexibility and Mobility</span>
+                    <input type="checkbox" name="check" id="flexbile" class="h-6 w-6 rounded-md">
+                </label>
+
+                <label for="fitness" class="rounded-xl p-4 my-2 bg-zinc-100  flex items-center justify-between cursor-pointer">
+                    <span class="font-bold text-lg text-zinc-500">General Fitness</span>
+                    <input type="checkbox" name="check" id="fitness" class="h-6 w-6 rounded-md">
+                </label>
+
+                <label for="event" class="rounded-xl p-4 my-2 bg-zinc-100  flex items-center justify-between cursor-pointer">
+                    <span class="font-bold text-lg text-zinc-500">Event-specific training</span>
+                    <input type="checkbox" name="check" id="event" class="h-6 w-6 rounded-md">
+                </label>
+
+                <label for="mindfull" class="rounded-xl p-4 my-2 bg-zinc-100  flex items-center justify-between cursor-pointer">
+                    <span class="font-bold text-lg text-zinc-500">Mindfulness and Mental Health</span>
+                    <input type="checkbox" name="check" id="mindfull" class="h-6 w-6 rounded-md">
+                </label>
+
+
+
+            </div>
+            <button type="submit"
+                class="w-full p-2 text-center font-semibold text-lg bg-gradient-to-r from-blue-400 to-indigo-600 text-white rounded-lg my-5">Confirm</button>
+        </form>
+    </main>
+</body>
+
+</html>
