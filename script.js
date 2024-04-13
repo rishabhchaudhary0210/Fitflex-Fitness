@@ -149,6 +149,10 @@ const ctx = document?.getElementById('myChart');
         }
       },
       barThickness : 2 ,
-      
+      plugins: {
+        legend: {
+            display: false,
+        }
+    }
     }
   });
